@@ -1,0 +1,4 @@
+abc
+abcdcba
+dddd
+tomato

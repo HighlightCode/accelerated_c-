@@ -13,8 +13,8 @@ The quick brown 		fox
 jumped over the 		fence
 jumped          		over the fence
 The             		quick brown fox
-jumped over     	the fence
-The quick brown fox
+jumped over     		the fence
+						The quick brown fox
 
 */
 
