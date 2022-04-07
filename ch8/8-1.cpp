@@ -32,7 +32,7 @@ int main()
 
 	ifstream infile;
 
-	infile.open("../data/students10.txt");
+	infile.open("../data/ch8/students10.txt");
 	read(infile, did);
 
 	didnt = extract(did, did_all_hw);

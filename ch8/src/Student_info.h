@@ -1,5 +1,5 @@
 #ifndef __STUDENT_INFO_H
-#define __STUDENT_INFO
+#define __STUDENT_INFO_H
 
 #include <string>
 #include <vector>
@@ -11,7 +11,7 @@ struct Student_info
 	std::vector<double> homework;
 	double midterm;
 	double final;
-}
+};
 
 double grade_aux(const Student_info&);
 double average_grade(const Student_info&);

@@ -1,21 +1,17 @@
 #include "Student_info.h"
 
 #include <vector>
-using std::vector;
-
-#include <algorithm>
-using std::remove_copy;
-
 #include <iterator>
-using std::back_inserter;
-
+#include <algorithm>
 #include <exception>
-using std::domain_error;
-
 #include <iostream>
-using std::istream;
-
 #include <sstream>
+
+using std::vector;
+using std::remove_copy;
+using std::back_inserter;
+using std::domain_error;
+using std::istream;
 using std::stringstream;
 
 #include "grade.h"

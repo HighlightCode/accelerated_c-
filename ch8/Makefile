@@ -6,7 +6,7 @@ OBJ_DIR = ./obj
 SRCS = $(notdir $(wildcard $(SRC_DIR)/*.cpp))
 OBJS = $(SRCS:.cpp=.o)
  
-PROGRAMS = split_test
+PROGRAMS = split_test 8-1 8-2 8-3 8-4 8-5 8-6
 all: $(PROGRAMS)
 
 OBJECTS = $(patsubst %.o,$(OBJ_DIR)/%.o,$(OBJS))
