@@ -59,8 +59,12 @@ public:
 	void clear() {
 		destroy();
 	}
-	iterator erase(iterator it) { return destroy(it); }
-	iterator erase(iterator b, iterator e) { return destroy(b,e); }
+	iterator erase(iterator it) {
+		return destroy(it);
+	}
+	iterator erase(iterator b, iterator e) {
+		return destroy(b, e);
+	}
 
 private:
 	iterator data;  // first element in the vec
